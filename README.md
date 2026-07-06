@@ -206,3 +206,99 @@ kubectl get pods -A
 - kubectl get nodes
 - kubectl get pods -A
 - VS Code Project Structure
+---
+
+# ✨ Key Features
+
+- Production-style modular Terraform project
+- Multi-environment deployment using Terraform Workspaces
+- Reusable modules for VPC, IAM, EKS, and Add-ons
+- Private networking with Public & Private Subnets
+- Managed EKS Node Groups
+- OIDC integration for secure IAM authentication
+- Environment-specific configuration using `.tfvars`
+- Infrastructure validation with `terraform fmt`, `validate`, and `plan`
+- Clean project structure following Infrastructure as Code best practices
+
+---
+
+# 📚 What I Learned
+
+Through this project, I gained hands-on experience with:
+
+- Designing reusable Terraform modules
+- Building AWS networking from scratch
+- Creating and managing Amazon EKS clusters
+- Configuring IAM Roles and OIDC
+- Managing Terraform Workspaces
+- Deploying infrastructure across multiple environments
+- Managing Kubernetes clusters using `kubectl`
+- Debugging real-world infrastructure deployment issues
+- Following Infrastructure as Code best practices
+
+---
+
+# 📈 Future Improvements
+
+- Remote Backend (Amazon S3 + DynamoDB)
+- GitHub Actions for Infrastructure Deployment
+- Helm Provider Integration
+- AWS Load Balancer Controller
+- Cluster Autoscaler
+- Metrics Server
+- Prometheus & Grafana Monitoring
+- Sample Three-Tier Application Deployment
+
+---
+
+# 📋 Project Workflow
+
+```text
+Terraform Code
+        │
+        ▼
+terraform init
+        │
+        ▼
+terraform validate
+        │
+        ▼
+terraform plan
+        │
+        ▼
+terraform apply
+        │
+        ▼
+AWS Infrastructure
+        │
+        ▼
+Amazon EKS Cluster
+        │
+        ▼
+kubectl
+        │
+        ▼
+Deploy Applications
+```
+
+---
+
+# 👨‍💻 Author
+
+**Mohit Gupta**
+
+- Final Year BCA-MCA Student
+- DevOps & Cloud Enthusiast
+- Passionate about AWS, Kubernetes, Terraform, Docker, and CI/CD
+
+GitHub: https://github.com/mohitgupta0829-st
+
+LinkedIn: www.linkedin.com/in/mohitgupta-dev28
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+---
