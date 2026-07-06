@@ -85,3 +85,124 @@ terraform-aws-eks/
 ├── terraform.tfvars
 └── README.md
 ```
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Infrastructure as Code | Terraform |
+| Cloud Provider | AWS |
+| Container Orchestration | Amazon EKS |
+| Networking | Amazon VPC |
+| Identity & Access | AWS IAM |
+| Compute | Amazon EC2 |
+| CLI Tools | AWS CLI, kubectl |
+| Version Control | Git & GitHub |
+
+---
+
+# ☁️ AWS Services Used
+
+- Amazon VPC
+- Amazon EKS
+- Amazon EC2
+- IAM
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- Security Groups
+- Elastic IP
+- OIDC Provider
+
+---
+
+# ⚙️ Terraform Concepts Covered
+
+- Terraform Modules
+- Variables
+- Outputs
+- Locals
+- Data Sources
+- Terraform Workspaces
+- Resource Dependencies
+- for_each
+- count
+- Validation
+- Dynamic Infrastructure
+- Environment Specific Configuration
+
+---
+
+# 🚀 Deployment
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+
+cd terraform-aws-eks
+```
+
+### Initialize Terraform
+
+```bash
+terraform init
+```
+
+### Select Workspace
+
+```bash
+terraform workspace select development
+```
+
+or
+
+```bash
+terraform workspace select test
+```
+
+### Plan
+
+```bash
+terraform plan \
+-var-file="terraform.tfvars" \
+-var-file="environments/development.tfvars"
+```
+
+### Apply
+
+```bash
+terraform apply
+```
+
+### Configure kubectl
+
+```bash
+aws eks update-kubeconfig \
+--region ap-south-1 \
+--name <cluster-name>
+```
+
+### Verify Cluster
+
+```bash
+kubectl get nodes
+
+kubectl get pods -A
+```
+
+---
+
+# 📸 Project Screenshots
+
+> Add the screenshots below.
+
+- AWS EKS Cluster
+- Managed Node Group
+- EC2 Worker Node
+- VPC Architecture
+- Terraform Apply
+- kubectl get nodes
+- kubectl get pods -A
+- VS Code Project Structure
