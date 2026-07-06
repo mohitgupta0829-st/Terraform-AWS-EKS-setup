@@ -32,11 +32,7 @@ Production-ready AWS EKS infrastructure built with Terraform using a modular arc
 - Environment Specific Variables
 
 ---
-
-## 🏗️ Architecture
-
-```
-
+---
 ## 🏗️ Architecture
 
 <p align="center">
