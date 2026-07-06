@@ -1,3 +1,12 @@
+![Terraform](https://img.shields.io/badge/Terraform-v1.6+-623CE4?logo=terraform)
+
+![AWS](https://img.shields.io/badge/AWS-EKS-FF9900?logo=amazonaws)
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.33-326CE5?logo=kubernetes)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
 # 🚀 Production-Ready AWS EKS Infrastructure using Terraform 
 
 Production-ready AWS EKS infrastructure built with Terraform using a modular architecture, multi-environment support, IAM, VPC, Managed Node Groups, and EKS Add-ons.
@@ -28,7 +37,11 @@ Production-ready AWS EKS infrastructure built with Terraform using a modular arc
 
 ```
 
-*(We'll insert the architecture diagram here tomorrow.)*
+## 🏗️ Architecture
+
+<p align="center">
+  <img src="assets/arc.png" alt="AWS EKS Architecture" width="100%">
+</p>
 
 ```
 GitHub
@@ -194,37 +207,37 @@ kubectl get pods -A
 
 ## Amazon EKS Cluster
 
-![EKS Cluster](screenshots/eks-cluster.png)
+![EKS Cluster](assets/eks-cluster.png)
 
 ---
 
 ## Managed Node Group
 
-![Node Group](screenshots/node-group.png)
+![Node Group](assets/node-group.png)
 
 ---
 
 ## Worker Node
 
-![EC2](screenshots/ec2-instance.png)
+![EC2](assets/ec2-instance.png)
 
 ---
 
 ## VPC Architecture
 
-![VPC](screenshots/vpc.png)
+![VPC](assets/vpc.png)
 
 ---
 
 ## Terraform Apply
 
-![Terraform Apply](screenshots/terraform-apply.png)
+![Terraform Apply](assets/terraform-apply.png)
 
 ---
 
 ## Kubernetes Nodes
 
-![kubectl nodes](screenshots/kubectl-get-nodes.png)
+![kubectl nodes](assets/kubectl-get-nodes.png)
 
 ---
 
@@ -322,3 +335,24 @@ LinkedIn: www.linkedin.com/in/mohitgupta-dev28
 If you found this project helpful, consider giving it a ⭐ on GitHub.
 
 ---
+MIT License
+
+Copyright (c) 2026 Mohit Gupta
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
