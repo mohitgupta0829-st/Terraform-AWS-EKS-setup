@@ -1,8 +1,6 @@
-# 🚀 Production-Ready AWS EKS Infrastructure using Terraform
+# 🚀 Production-Ready AWS EKS Infrastructure using Terraform 
 
-A production-style Infrastructure as Code (IaC) project that provisions a complete Amazon EKS environment using Terraform with a modular architecture.
-
-This project creates a highly organized AWS infrastructure including VPC networking, IAM roles, Amazon EKS Cluster, Managed Node Groups, OIDC Provider, and EKS Add-ons.
+Production-ready AWS EKS infrastructure built with Terraform using a modular architecture, multi-environment support, IAM, VPC, Managed Node Groups, and EKS Add-ons.
 
 ---
 
@@ -190,22 +188,44 @@ aws eks update-kubeconfig \
 kubectl get nodes
 
 kubectl get pods -A
-```
-
----
+```   
 
 # 📸 Project Screenshots
 
-> Add the screenshots below.
+## Amazon EKS Cluster
 
-- AWS EKS Cluster
-- Managed Node Group
-- EC2 Worker Node
-- VPC Architecture
-- Terraform Apply
-- kubectl get nodes
-- kubectl get pods -A
-- VS Code Project Structure
+![EKS Cluster](screenshots/eks-cluster.png)
+
+---
+
+## Managed Node Group
+
+![Node Group](screenshots/node-group.png)
+
+---
+
+## Worker Node
+
+![EC2](screenshots/ec2-instance.png)
+
+---
+
+## VPC Architecture
+
+![VPC](screenshots/vpc.png)
+
+---
+
+## Terraform Apply
+
+![Terraform Apply](screenshots/terraform-apply.png)
+
+---
+
+## Kubernetes Nodes
+
+![kubectl nodes](screenshots/kubectl-get-nodes.png)
+
 ---
 
 # ✨ Key Features
