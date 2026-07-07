@@ -9,7 +9,10 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 # 🚀 Production-Ready AWS EKS Infrastructure using Terraform 
 
-Production-ready AWS EKS infrastructure built with Terraform using a modular architecture, multi-environment support, IAM, VPC, Managed Node Groups, and EKS Add-ons.
+A production-style Infrastructure as Code (IaC) project that provisions a complete Amazon EKS environment using Terraform with a modular architecture.
+
+This project creates a highly organized AWS infrastructure including VPC networking, IAM roles, Amazon EKS Cluster, Managed Node Groups, OIDC Provider, and EKS Add-ons.
+
 
 ---
 
